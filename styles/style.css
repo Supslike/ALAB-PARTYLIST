@@ -6,6 +6,14 @@
     box-sizing: border-box;
 }
 
+*::-webkit-scrollbar-track {
+    width: 0;
+}
+
+*::-webkit-scrollbar {
+	width: 0;
+}
+
 @font-face {
   font-family: 'Agrandir';
   src: url('Agrandir-Regular.otf') format('opentype');
@@ -502,11 +510,12 @@ a:link, a:visited {
 }
 
 
-@media (max-width: 1400px) {
+@media (max-width: 1550px) {
+    .body-sec {
+        height: 55vh;
+    }
 
+    .other {
+        padding-top: 10vh;
+    }
 }
-/* Medium devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-
-@media (min-width: 1200px) { ... } */
