@@ -15,7 +15,7 @@ body {
     background-color: #2B2A4C;
     color: #EEE2DE;
     overflow-x: hidden;
-    padding-bottom: 5vh;
+    padding-bottom: 10vh;
 }
 
 .top-section {
@@ -196,3 +196,4 @@ ul {
         text-align: justify;
     }
 }
+
