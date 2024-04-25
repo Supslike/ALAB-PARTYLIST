@@ -421,6 +421,12 @@ a:link, a:visited {
         font-size: 14px;
     }
 
+    .body-sec {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .bottom-sec {
         height: fit-content;
     }
@@ -510,7 +516,7 @@ a:link, a:visited {
 }
 
 
-@media (max-width: 1550px) {
+@media (min-width: 1400px) {
     .body-sec {
         height: 55vh;
     }

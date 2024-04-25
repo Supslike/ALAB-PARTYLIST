@@ -6,6 +6,15 @@
     box-sizing: border-box;
 }
 
+*::-webkit-scrollbar-track {
+    width: 0;
+}
+
+*::-webkit-scrollbar {
+	width: 0;
+}
+
+
 header {
     width: 100vw;
     font-family: "Rubik", sans-serif;
@@ -144,7 +153,7 @@ ul {
     }
 
     .info {
-        width: 80vw;
+        width: 85vw;
     }
 
     .content-sec .info-content {
@@ -153,7 +162,7 @@ ul {
     }
 
     .content-sec .img-wrapper {
-        width: 80vw;
+        width: 85vw;
         display: flex;
         justify-content: center;
         align-items: center;
