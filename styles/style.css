@@ -205,6 +205,10 @@ a:link, a:visited {
     font-size: 30px;
 }
 
+.agenda-info .info-wrapper p {
+    font-size: 22px;
+}
+
 .other img {
     width: 200px;
     height: 200px;
