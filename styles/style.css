@@ -254,7 +254,7 @@ a:link, a:visited {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: fit-content;
 }
 
 .agenda-info h2 {
@@ -414,7 +414,7 @@ a:link, a:visited {
 
 
 /* Small devices (tablets, 768px and up) */
-@media (max-width: 500px) {
+@media (max-device-width: 1000px) {
 
     .logo-sec, .batch {
         width: 50vw;
@@ -516,12 +516,27 @@ a:link, a:visited {
 }
 
 
-@media (min-width: 1400px) {
+@media (min-device-width: 1400px) {
     .body-sec {
         height: 55vh;
     }
 
     .other {
         padding-top: 10vh;
+    }
+}
+
+@media only screen 
+  and (max-device-width: 350px) {
+    .msg-board h2 {
+        text-align: center;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    .body-sec {
+        height: 35vh;
     }
 }
