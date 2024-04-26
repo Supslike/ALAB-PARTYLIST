@@ -552,3 +552,9 @@ a:link, a:visited {
         height: 35vh;
     }
 }
+
+.info-holder:hover {
+    transition: all 0.3s;
+    transform: scale(1.1);
+    filter: drop-shadow(15px 10px 10px rgba(0, 0, 0, 0.5));
+}

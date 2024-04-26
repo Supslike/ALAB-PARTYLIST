@@ -120,6 +120,43 @@ ul {
     text-align: justify;
 }
 
+.msg-board {
+    height: 20vh;
+    background-color: #EEE2DE;
+    display: flex;
+    align-items: center;
+    margin: 5vh 0;
+    color: #2B2A4C;
+    font-family: Candal;
+    justify-content: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    gap: 20px;
+    filter: drop-shadow(10px 5px 10px rgba(0, 0, 0, 0.2));
+}
+
+.msg-board img {
+    width: 150px;
+}
+
+.platform {
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+.platform h2 {
+    font-family: Poppins;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.platform p {
+    font-family: Poppins;
+    font-weight: 300;
+    text-indent: 0.5in;
+    text-align: justify;
+}
+
 @media (max-width: 500px) {
     .top-section {
         font-size: 14px;
@@ -144,6 +181,17 @@ ul {
         color: #EEE2DE;
         width: fit-content;
         font-weight: 200;
+    }
+
+    .msg-board {
+        height: 13vh;
+        font-size: 16px;
+        gap: 5px;
+        margin-bottom: 2vh;
+    }
+
+    .msg-board img {
+        width: 75px;
     }
 
     .content-sec {
@@ -204,5 +252,16 @@ ul {
         font-weight: 200;
         text-align: justify;
     }
+
+    .platform h2 {
+        font-size: 22px;
+    }
 }
 
+
+@media only screen 
+  and (max-device-width: 350px) {
+    .msg-board h2 {
+        text-align: center;
+    }
+}
