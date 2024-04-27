@@ -121,11 +121,12 @@ ul {
 }
 
 .msg-board {
-    height: 20vh;
+    height: fit-content;
     background-color: #EEE2DE;
     display: flex;
     align-items: center;
-    margin: 5vh 0;
+    padding: 3vh 0;
+    margin: 8vh 0;
     color: #2B2A4C;
     font-family: Candal;
     justify-content: center;
@@ -184,10 +185,11 @@ ul {
     }
 
     .msg-board {
-        height: 13vh;
+        height: fit-content;
         font-size: 16px;
+        padding: 2vh 0;
         gap: 5px;
-        margin-bottom: 2vh;
+        margin-bottom: 5vh;
     }
 
     .msg-board img {
