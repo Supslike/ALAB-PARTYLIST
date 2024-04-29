@@ -112,6 +112,10 @@ header .top-section img {
     font-style: italic;
 }
 
+.content-sec p {
+    font-style: italic;
+}
+
 ul {
     margin-top: 3vh;
     margin-left: 1vw;
